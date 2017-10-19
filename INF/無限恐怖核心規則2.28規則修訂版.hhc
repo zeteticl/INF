@@ -1,0 +1,3943 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties"> 
+     <param name="FrameName" value="right">
+     <param name="WindowName" value="main">
+     <param name="Font" value=",8,0">
+     <param name="ImageType" value="Book">
+     <param name="Window Styles" value="0x27">
+     <param name="ExWindow Styles" value="0x0">
+   </OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="規則部分">
+<param name="Local" value="規則部分.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="簡介">
+<param name="Local" value="簡介.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="核心規則部分">
+<param name="Local" value="核心規則部分.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="核心規則">
+<param name="Local" value="核心規則.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="建立人物卡來參與遊戲">
+<param name="Local" value="新建項目1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="建卡">
+<param name="Local" value="建卡.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="屬性概述">
+<param name="Local" value="新建項目.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能概述">
+<param name="Local" value="核心技能部分.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="專長概述">
+<param name="Local" value="專長概述.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="專長概述">
+<param name="Local" value="專長概述1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰鬥系專長">
+<param name="Local" value="生理系專長.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="生理系專長">
+<param name="Local" value="生理系專長1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="心智系專長">
+<param name="Local" value="心智系專長.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="社交系專長">
+<param name="Local" value="社交系專長.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="輪迴隊專長">
+<param name="Local" value="輪迴隊專長.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天賦與缺陷">
+<param name="Local" value="天賦與缺陷1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰鬥與非戰鬥規則">
+<param name="Local" value="$$unsavedpage1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="非戰鬥動作">
+<param name="Local" value="動作講解.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰鬥動作">
+<param name="Local" value="戰！戰！戰！.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="偵測與定位">
+<param name="Local" value="偵測與定位.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="生存狀態與其他">
+<param name="Local" value="$$unsavedpage2.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="生命">
+<param name="Local" value="生命.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="傷害類型與防禦類型">
+<param name="Local" value="傷害類型與防禦類型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="不良狀態">
+<param name="Local" value="生存狀態.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="品行值與精神異常">
+<param name="Local" value="品行值與精神異常.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="裝備與裝備位規則">
+<param name="Local" value="新建項目2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="生物分類">
+<param name="Local" value="生物分類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊規則部分">
+<param name="Local" value="特殊規則部分.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="基因鎖">
+<param name="Local" value="基因鎖.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="主神修復">
+<param name="Local" value="主神修復.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="超凡神聖">
+<param name="Local" value="超凡神聖.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="載具規則">
+<param name="Local" value="載具規則.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="經驗值系統">
+<param name="Local" value="經驗值系統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="世界觀設置">
+<param name="Local" value="世界觀設置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自創能力規則">
+<param name="Local" value="自創能力規則.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="主神空間個人房間規則">
+<param name="Local" value="主神空間個人房間規則.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="使用文件與自製科技物品">
+<param name="Local" value="使用文件與自製科技物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="開團經驗分享">
+<param name="Local" value="經驗分享.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="一些其他規則">
+<param name="Local" value="暫存.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FAQ">
+<param name="Local" value="FAQ.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="附錄：加值等其他">
+<param name="Local" value="1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="資源部分">
+<param name="Local" value="資源部分.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="總綱">
+<param name="Local" value="洗點.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="血統">
+<param name="Local" value="血統.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="人類">
+<param name="Local" value="$$unsavedpage3.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="調整者Coordinator">
+<param name="Local" value="能量強化型血脈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="星際陸戰隊">
+<param name="Local" value="星際陸戰隊.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="七夜血脈">
+<param name="Local" value="New_Item61.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="兩儀家血脈">
+<param name="Local" value="體術強悍的人類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="倖存者">
+<param name="Local" value="超級強橫的人類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="閃靈">
+<param name="Local" value="閃靈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="浪人">
+<param name="Local" value="浪人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="山中老人">
+<param name="Local" value="山中老人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="禍神血脈">
+<param name="Local" value="New_Item62.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼劍士">
+<param name="Local" value="鬼劍士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="奇跡劍士">
+<param name="Local" value="奇跡劍士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="草薙家族之不滅神焰血脈">
+<param name="Local" value="New_Item63.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="斯巴達">
+<param name="Local" value="斯巴達.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="勇者與神魔裔血統">
+<param name="Local" value="New_Item64.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="仙民血統">
+<param name="Local" value="玄幻世界神仙道.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天然道士">
+<param name="Local" value="位階神靈的人類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人民英雄">
+<param name="Local" value="New_Item79.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="白虎星">
+<param name="Local" value="New_Item65.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="崑崙民">
+<param name="Local" value="New_Item66.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="九黎之民">
+<param name="Local" value="New_Item67.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鑄劍師">
+<param name="Local" value="New_Item68.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍者血統">
+<param name="Local" value="New_Item69.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天驅武士">
+<param name="Local" value="New_Item80.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="漢族">
+<param name="Local" value="漢族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="凶兆先生">
+<param name="Local" value="New_Item81.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="中二病">
+<param name="Local" value="New_Item82.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="熱血笨蛋不死身">
+<param name="Local" value="New_Item83.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="畸人">
+<param name="Local" value="New_Item84.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="21世紀的夜霧殺人鬼">
+<param name="Local" value="New_Item85.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="博麗巫女">
+<param name="Local" value="博麗巫女.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="彭格列家族">
+<param name="Local" value="彭格列家族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新人類">
+<param name="Local" value="簡單粗暴一次性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="詭擬者">
+<param name="Local" value="New_Item97.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈媒">
+<param name="Local" value="New_Item76.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="盧恩米德加茲冒險者">
+<param name="Local" value="New_Item114.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="格林血統">
+<param name="Local" value="格林血統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="傾聽者（whisper）">
+<param name="Local" value="New_Item104.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="信息員">
+<param name="Local" value="New_Item106.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冥界ソ王女">
+<param name="Local" value="New_Item77.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="言靈師">
+<param name="Local" value="New_Item99.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLACKLIGHT原型體">
+<param name="Local" value="New_Item117.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="時空管理局武裝部隊">
+<param name="Local" value="變換莫測的其他.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="時之驅魔師">
+<param name="Local" value="New_Item121.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="極速者（閃電俠）">
+<param name="Local" value="極速者（閃電俠）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔女">
+<param name="Local" value="魔女.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="奇跡之人">
+<param name="Local" value="奇跡之人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="士兵血脈">
+<param name="Local" value="士兵血脈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="軒轅閣">
+<param name="Local" value="軒轅閣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="忍者">
+<param name="Local" value="忍者1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="一次性血統">
+<param name="Local" value="$$unsavedpage4.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="蜘蛛俠">
+<param name="Local" value="蜘蛛俠.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夜魔俠">
+<param name="Local" value="夜魔俠.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="金剛狼">
+<param name="Local" value="金剛狼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死侍">
+<param name="Local" value="死侍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="綠巨人">
+<param name="Local" value="綠巨人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="紅巨人">
+<param name="Local" value="紅巨人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鋼力士">
+<param name="Local" value="鋼力士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="惡靈騎士">
+<param name="Local" value="惡靈騎士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="超人">
+<param name="Local" value="超人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="使徒系列">
+<param name="Local" value="使徒系列.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="亞維">
+<param name="Local" value="亞維.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="斯克萊亞變化">
+<param name="Local" value="斯克萊亞變化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="二觭人變化">
+<param name="Local" value="New_Item90.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="古代安其爾人血統">
+<param name="Local" value="New_Item86.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="火霧戰士">
+<param name="Local" value="New_Item87.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死神">
+<param name="Local" value="New_Item89.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鳶女變化">
+<param name="Local" value="鳶女變化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SA特優生">
+<param name="Local" value="SA特優生.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="巨魔血統">
+<param name="Local" value="巨魔血統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="烏賊血統">
+<param name="Local" value="烏賊血統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天賦英豪">
+<param name="Local" value="New_Item88.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="究極生命體">
+<param name="Local" value="究極生命體.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="惡作劇的三妖精">
+<param name="Local" value="日月星三妖精.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="非人類">
+<param name="Local" value="$$unsavedpage5.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="羽人">
+<param name="Local" value="羽人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="獸族勇士">
+<param name="Local" value="獸族勇士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="月之民">
+<param name="Local" value="月之民.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="巨龍">
+<param name="Local" value="New_Item113.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="水行俠">
+<param name="Local" value="水行俠.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗精靈">
+<param name="Local" value="黑暗精靈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="晨光之子">
+<param name="Local" value="New_Item105.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="永恆之刃">
+<param name="Local" value="New_Item119.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="吸血鬼獵人">
+<param name="Local" value="New_Item120.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人魚">
+<param name="Local" value="New_Item115.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鐵血戰士">
+<param name="Local" value="鐵血戰士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="深海娜迦">
+<param name="Local" value="New_Item118.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="貓怪之靈">
+<param name="Local" value="New_Item116.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="牛頭人">
+<param name="Local" value="牛頭人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夜行神龍">
+<param name="Local" value="夜行神龍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="光石網絡守護者">
+<param name="Local" value="New_Item102.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="神族PROTOSS">
+<param name="Local" value="精神力團隊核心.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雅娜斯特">
+<param name="Local" value="與生俱來施法者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="影族">
+<param name="Local" value="影族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="艾爾洛德星人">
+<param name="Local" value="艾爾洛德星人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="聖寶石體質">
+<param name="Local" value="New_Item122.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="知識與歷史的半獸變化">
+<param name="Local" value="New_Item103.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="泰坦">
+<param name="Local" value="泰坦.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="閻魔">
+<param name="Local" value="閻魔.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="悲風血統">
+<param name="Local" value="悲風血統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="自帶能量池血統">
+<param name="Local" value="$$unsavedpage6.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="迦樓羅">
+<param name="Local" value="迦樓羅.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="統一言語師">
+<param name="Local" value="New_Item100.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="門之守護者血脈">
+<param name="Local" value="New_Item101.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="賢狼">
+<param name="Local" value="賢狼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="精靈">
+<param name="Local" value="New_Item70.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人造人">
+<param name="Local" value="New_Item72.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="三眼族">
+<param name="Local" value="三眼族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍騎士">
+<param name="Local" value="龍騎士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="淮陰柳氏">
+<param name="Local" value="New_Item71.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="賽亞人">
+<param name="Local" value="賽亞人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="螺旋族">
+<param name="Local" value="New_Item74.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冥靈">
+<param name="Local" value="New_Item75.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼神卡贊">
+<param name="Local" value="New_Item78.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="弒神者">
+<param name="Local" value="New_Item73.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鯉魚精">
+<param name="Local" value="鯉魚精.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="厄運之神">
+<param name="Local" value="厄運之神.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗生物">
+<param name="Local" value="$$unsavedpage7.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="狼人">
+<param name="Local" value="來自黑暗的戰士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="猴子人">
+<param name="Local" value="New_Item91.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="真祖">
+<param name="Local" value="New_Item92.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天國神族">
+<param name="Local" value="New_Item96.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="深潛者">
+<param name="Local" value="New_Item95.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死亡騎士">
+<param name="Local" value="不死生物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="完美生物">
+<param name="Local" value="完美生物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="不死者">
+<param name="Local" value="不死者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="喪屍">
+<param name="Local" value="喪屍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="殭屍">
+<param name="Local" value="殭屍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死亡騎士">
+<param name="Local" value="死亡騎士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="化龍秘術">
+<param name="Local" value="New_Item93.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怨憎歸還者">
+<param name="Local" value="New_Item94.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="惡鬼">
+<param name="Local" value="惡鬼變異.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="惡魔">
+<param name="Local" value="狡詐無比邪術師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔鬼">
+<param name="Local" value="魔鬼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔人">
+<param name="Local" value="魔人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="血族">
+<param name="Local" value="血族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="遠野血脈">
+<param name="Local" value="New_Item98.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔法使">
+<param name="Local" value="詭異無比的妖怪.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="仙靈">
+<param name="Local" value="特別血統：仙靈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="□變化">
+<param name="Local" value="New_Item108.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蓬萊的不死鳥變化">
+<param name="Local" value="New_Item109.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天狐">
+<param name="Local" value="New_Item110.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="半妖">
+<param name="Local" value="New_Item111.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="邪眼火妖">
+<param name="Local" value="New_Item112.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="妖怪賢者">
+<param name="Local" value="妖怪賢者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雪女">
+<param name="Local" value="New_Item206.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鴉天狗">
+<param name="Local" value="鴉天狗.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="花之妖怪">
+<param name="Local" value="花之妖怪.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="超自然災害源假定種類">
+<param name="Local" value="超自然災害源假定種類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="骷髏">
+<param name="Local" value="骷髏.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="光明生物">
+<param name="Local" value="$$unsavedpage8.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="圓桌騎士">
+<param name="Local" value="傳播光明的武士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天使之塵">
+<param name="Local" value="逆轉翻盤的輔助.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="瓦爾基裡">
+<param name="Local" value="瓦爾基裡.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="亞斯加德神性武者">
+<param name="Local" value="來自地獄不死者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="艾爾拉思天使轉生">
+<param name="Local" value="New_Item107.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="改造">
+<param name="Local" value="改造.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="X戰警系列">
+<param name="Local" value="$$unsavedpage9.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="總綱">
+<param name="Local" value="變種風暴.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="藍魔鬼">
+<param name="Local" value="藍魔鬼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="風暴">
+<param name="Local" value="風暴.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鐳射眼">
+<param name="Local" value="鐳射眼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="野獸">
+<param name="Local" value="野獸.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="金剛狼">
+<param name="Local" value="金剛狼1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="幻影貓">
+<param name="Local" value="幻影貓.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="萬磁王">
+<param name="Local" value="萬磁王.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冰人">
+<param name="Local" value="冰人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鎧">
+<param name="Local" value="鎧.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="變種人系列">
+<param name="Local" value="$$unsavedpage10.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="法則洞察">
+<param name="Local" value="法則洞察.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="式發使">
+<param name="Local" value="New_Item150.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="孤獨王者">
+<param name="Local" value="New_Item151.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="契約者">
+<param name="Local" value="New_Item152.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="操能使">
+<param name="Local" value="操能使.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="念力發火/操炎使">
+<param name="Local" value="New_Item154.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="矢量操作/一方通行">
+<param name="Local" value="New_Item153.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="念力">
+<param name="Local" value="念力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="科技類改造">
+<param name="Local" value="$$unsavedpage11.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="人機改造">
+<param name="Local" value="嗑藥士兵.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔化異構">
+<param name="Local" value="魔化異構.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="特甲兒童訓練">
+<param name="Local" value="New_Item155.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="機裝體">
+<param name="Local" value="惡魔果實.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蒼白騎士">
+<param name="Local" value="蒼白騎士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="強殖裝甲">
+<param name="Local" value="強殖裝甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="獵戶座計劃斯巴達人體強化手術">
+<param name="Local" value="New_Item164.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="機械戰警">
+<param name="Local" value="New_Item161.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能製造軟件">
+<param name="Local" value="New_Item202.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="機裝少女改造">
+<param name="Local" value="機裝少女改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="星際戰甲">
+<param name="Local" value="星際戰甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔幻類改造">
+<param name="Local" value="$$unsavedpage12.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="英靈契約">
+<param name="Local" value="英靈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="美食細胞">
+<param name="Local" value="特殊改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="白家戰士完美改造">
+<param name="Local" value="白家戰士完美改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="替身使者">
+<param name="Local" value="替身使者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="空間震精靈改造">
+<param name="Local" value="New_Item169.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="見稽古">
+<param name="Local" value="New_Item170.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="腦內限制解除">
+<param name="Local" value="New_Item168.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自然賜福">
+<param name="Local" value="毒液.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="武中無相">
+<param name="Local" value="New_Item166.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="千手一族">
+<param name="Local" value="千手一族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="馬裡奧">
+<param name="Local" value="馬裡奧.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="神羅戰士">
+<param name="Local" value="New_Item172.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="金屬化">
+<param name="Local" value="New_Item173.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="假面騎士">
+<param name="Local" value="假面騎士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="毒液改造">
+<param name="Local" value="毒液改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔裝改造">
+<param name="Local" value="New_Item162.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="乙HiME">
+<param name="Local" value="New_Item165.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="妄想症候群">
+<param name="Local" value="New_Item163.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍脈改造">
+<param name="Local" value="龍脈改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="最屌之人">
+<param name="Local" value="New_Item160.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="寄生獸">
+<param name="Local" value="寄生獸.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="神孽">
+<param name="Local" value="神之英孽.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="神話英雄">
+<param name="Local" value="New_Item156.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="偉大種族">
+<param name="Local" value="偉大種族.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="罡氣">
+<param name="Local" value="罡氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="吐槽能量改造">
+<param name="Local" value="吐槽能量改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="萌化">
+<param name="Local" value="萌化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蓬萊藥">
+<param name="Local" value="蓬萊藥.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="惡魔果實">
+<param name="Local" value="$$unsavedpage13.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="總綱">
+<param name="Local" value="惡魔果實1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人人果實">
+<param name="Local" value="New_Item175.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="橡膠果實">
+<param name="Local" value="夢幻改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="甜甜果實">
+<param name="Local" value="New_Item174.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="刀刃果實">
+<param name="Local" value="New_Item177.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="炸彈果實">
+<param name="Local" value="New_Item180.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="岩漿果實">
+<param name="Local" value="New_Item182.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="響雷果實">
+<param name="Local" value="New_Item178.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="沙之果實">
+<param name="Local" value="New_Item179.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冰凍果實">
+<param name="Local" value="New_Item183.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="火焰果實">
+<param name="Local" value="New_Item176.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="荷爾蒙果實">
+<param name="Local" value="荷爾蒙果實.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雲之果實">
+<param name="Local" value="New_Item181.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗生物">
+<param name="Local" value="$$unsavedpage14.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="耐奧祖之賜">
+<param name="Local" value="暗黑改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="賢者之石">
+<param name="Local" value="New_Item157.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="巫妖">
+<param name="Local" value="New_Item158.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="遠古魔靈昇華">
+<param name="Local" value="New_Item159.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="安卡如吸血鬼">
+<param name="Local" value="New_Item171.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="蟲族改造">
+<param name="Local" value="$$unsavedpage15.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="基礎基因">
+<param name="Local" value="蟲族改造.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雷獸">
+<param name="Local" value="New_Item184.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="基因盜竊者">
+<param name="Local" value="New_Item185.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蟲王">
+<param name="Local" value="New_Item186.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="瞳術">
+<param name="Local" value="瞳術1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="寫輪眼">
+<param name="Local" value="New_Item46.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="白眼">
+<param name="Local" value="New_Item47.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="妖精眼">
+<param name="Local" value="New_Item48.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="煉魂瞳">
+<param name="Local" value="New_Item49.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="洞察之眼">
+<param name="Local" value="瞳術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="螺旋魔眼">
+<param name="Local" value="螺旋魔眼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="緋紅之眼">
+<param name="Local" value="緋紅之眼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="塑命瞳">
+<param name="Local" value="New_Item50.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="銀白之瞳">
+<param name="Local" value="New_Item51.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑與白之瞳">
+<param name="Local" value="New_Item52.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="幻視瞳">
+<param name="Local" value="New_Item53.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="看破之眼">
+<param name="Local" value="New_Item54.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="狂氣之瞳">
+<param name="Local" value="New_Item55.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="邪王真眼">
+<param name="Local" value="New_Item56.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="十字眼">
+<param name="Local" value="New_Item57.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="生命之眼">
+<param name="Local" value="New_Item58.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="超視">
+<param name="Local" value="New_Item59.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="直死魔眼">
+<param name="Local" value="直死魔眼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="金橙之瞳">
+<param name="Local" value="金橙之瞳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="瞳人語">
+<param name="Local" value="瞳人語.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="永久瞳術固化">
+<param name="Local" value="New_Item60.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="稱號">
+<param name="Local" value="稱號.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰士類">
+<param name="Local" value="$$unsavedpage16.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="拔刀師">
+<param name="Local" value="拔刀師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無雙將">
+<param name="Local" value="無雙將.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="九劍宗師">
+<param name="Local" value="九劍宗師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍魂">
+<param name="Local" value="刀劍無眼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍舞者">
+<param name="Local" value="New_Item133.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="強者">
+<param name="Local" value="New_Item148.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="暗器使">
+<param name="Local" value="暗器使.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="京都神鳴流">
+<param name="Local" value="New_Item134.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="華山劍派">
+<param name="Local" value="華山劍派.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="快劍客">
+<param name="Local" value="快劍客.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="武器大師">
+<param name="Local" value="武器大師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰士">
+<param name="Local" value="戰士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="狂戰士">
+<param name="Local" value="New_Item132.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="琴弦師">
+<param name="Local" value="琴弦師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="煉氣士">
+<param name="Local" value="New_Item140.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="殘暴馭手">
+<param name="Local" value="New_Item135.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物獵人">
+<param name="Local" value="New_Item141.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="一拳超人">
+<param name="Local" value="一拳超人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="島田忍術">
+<param name="Local" value="島田忍術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈魂觸發者">
+<param name="Local" value="光之民.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="嗑藥士兵">
+<param name="Local" value="嗑藥士兵1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="刺客類">
+<param name="Local" value="$$unsavedpage17.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="小刀使">
+<param name="Local" value="刺客聯盟.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="唐門">
+<param name="Local" value="唐門.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="潛行者">
+<param name="Local" value="New_Item142.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔法殺手">
+<param name="Local" value="魔法殺手.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夢境殺手">
+<param name="Local" value="夢境殺手.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="忍者">
+<param name="Local" value="忍者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="遠程類">
+<param name="Local" value="$$unsavedpage18.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特工之路">
+<param name="Local" value="New_Item149.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="漫遊槍手">
+<param name="Local" value="槍王之王.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍俠">
+<param name="Local" value="New_Item128.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="牛仔">
+<param name="Local" value="New_Item199.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="楷覆功">
+<param name="Local" value="New_Item127.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔彈射手">
+<param name="Local" value="New_Item129.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍械師">
+<param name="Local" value="New_Item130.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="老兵傳奇">
+<param name="Local" value="New_Item131.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔弓術">
+<param name="Local" value="魔弓術1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="肉搏類">
+<param name="Local" value="$$unsavedpage19.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="武鬥家">
+<param name="Local" value="拳腳制霸.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="南斗聖拳">
+<param name="Local" value="南斗聖拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="北斗神拳">
+<param name="Local" value="New_Item123.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="北斗琉拳">
+<param name="Local" value="New_Item124.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="西斗月拳">
+<param name="Local" value="New_Item125.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新格拳/颶風拳鬥士">
+<param name="Local" value="New_Item126.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="施法類">
+<param name="Local" value="$$unsavedpage20.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="巫女/神祝">
+<param name="Local" value="New_Item137.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="狩魔獵人">
+<param name="Local" value="New_Item138.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SEED">
+<param name="Local" value="SEED.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人偶使">
+<param name="Local" value="神之技藝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔術師">
+<param name="Local" value="New_Item139.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="代行者">
+<param name="Local" value="代行者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="法師稱號">
+<param name="Local" value="法師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="反擊咒術士">
+<param name="Local" value="反擊咒術士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="結界師">
+<param name="Local" value="結界師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗類">
+<param name="Local" value="$$unsavedpage21.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="術士">
+<param name="Local" value="黑暗契約.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑印騎士">
+<param name="Local" value="New_Item145.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死亡化身">
+<param name="Local" value="死亡化身.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="炸彈支配者">
+<param name="Local" value="炸彈支配者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="次元支配者">
+<param name="Local" value="New_Item136.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="肌肉支配者">
+<param name="Local" value="肌肉支配者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="犬神使">
+<param name="Local" value="犬神使.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗操縱者">
+<param name="Local" value="黑暗操縱者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="光明類">
+<param name="Local" value="$$unsavedpage22.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="聖騎士">
+<param name="Local" value="光明使者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="聖鬥士">
+<param name="Local" value="New_Item144.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="聖武士">
+<param name="Local" value="聖武士.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="技巧類">
+<param name="Local" value="$$unsavedpage23.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="皇牌機師ACE">
+<param name="Local" value="New_Item143.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="預言之子">
+<param name="Local" value="2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="馴獸師">
+<param name="Local" value="馴獸師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="植物師">
+<param name="Local" value="植物師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CO指揮官">
+<param name="Local" value="CO指揮官.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="欺詐師">
+<param name="Local" value="欺詐師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="樂師">
+<param name="Local" value="樂師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="煉金術師">
+<param name="Local" value="煉金術師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="逆轉檢事">
+<param name="Local" value="妖力幻化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="業務員">
+<param name="Local" value="施法威能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="遊戲主播">
+<param name="Local" value="遊戲主播.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="仲魔之鑰">
+<param name="Local" value="New_Item198.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="情報員">
+<param name="Local" value="鬼才輔助.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑客">
+<param name="Local" value="黑客.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="決鬥者">
+<param name="Local" value="New_Item146.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="不動ソ大圖書館">
+<param name="Local" value="New_Item200.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="未來人">
+<param name="Local" value="未來人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="調律師">
+<param name="Local" value="調律師.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="你是那樣拉風的男人">
+<param name="Local" value="你是那樣拉風的男人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="仿術">
+<param name="Local" value="仿術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FLAG">
+<param name="Local" value="FLAG.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="名詠式">
+<param name="Local" value="名詠式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="舞者">
+<param name="Local" value="舞者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="賢者">
+<param name="Local" value="賢者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="技藝">
+<param name="Local" value="技藝.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍械技藝">
+<param name="Local" value="$$unsavedpage24.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍斗術">
+<param name="Local" value="槍斗術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍械充能術">
+<param name="Local" value="槍械充能術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="瘋狂的子彈">
+<param name="Local" value="瘋狂的子彈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍擊式">
+<param name="Local" value="槍擊式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跳彈射擊法">
+<param name="Local" value="New_Item8.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TWO-HAND MODE">
+<param name="Local" value="New_Item9.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="拔槍術">
+<param name="Local" value="拔槍術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔炮使者">
+<param name="Local" value="魔炮使者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="肉搏技藝">
+<param name="Local" value="$$unsavedpage25.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="基礎拳法">
+<param name="Local" value="基礎拳法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="東方不敗">
+<param name="Local" value="東方不敗.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無名肉搏技">
+<param name="Local" value="無名肉搏技.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="哈迪倫暗殺術">
+<param name="Local" value="哈迪倫暗殺術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蛇咬之拳">
+<param name="Local" value="蛇咬之拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="居合拳">
+<param name="Local" value="居合拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="友情破顏拳">
+<param name="Local" value="友情破顏拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="八卦掌">
+<param name="Local" value="八卦掌.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈光波動拳">
+<param name="Local" value="靈光波動拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="海虎爆破拳">
+<param name="Local" value="海虎爆破拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="獸王拳">
+<param name="Local" value="獸王拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="六合拳">
+<param name="Local" value="六合拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="聖堂防身術">
+<param name="Local" value="聖堂防身術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="勁柔拳">
+<param name="Local" value="New_Item12.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="太極拳">
+<param name="Local" value="太極拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="心佛掌">
+<param name="Local" value="心佛掌.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="廣播體操殺人拳">
+<param name="Local" value="廣播體操殺人拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="八極拳">
+<param name="Local" value="八極拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="制空圈">
+<param name="Local" value="制空圈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="波動拳">
+<param name="Local" value="波動拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無限拳">
+<param name="Local" value="無限拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="太平拳">
+<param name="Local" value="太平拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="木葉體術（忍術）">
+<param name="Local" value="木葉體術（忍術）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="究極亡靈踢">
+<param name="Local" value="究極亡靈踢.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQC格鬥技">
+<param name="Local" value="CQC格鬥技.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="拳修">
+<param name="Local" value="拳修.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雷電神腿">
+<param name="Local" value="雷電神腿.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="花神七式">
+<param name="Local" value="花神七式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="釘拳">
+<param name="Local" value="釘拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="指法">
+<param name="Local" value="$$unsavedpage26.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="基本指法">
+<param name="Local" value="基本指法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="驚神指">
+<param name="Local" value="驚神指.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="先天無相指劍">
+<param name="Local" value="New_Item1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="六脈神劍">
+<param name="Local" value="六脈神劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍法">
+<param name="Local" value="$$unsavedpage27.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍法掌握">
+<param name="Local" value="槍法掌握.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍王槍術『怪奇談』">
+<param name="Local" value="New_Item31.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="焚城槍法">
+<param name="Local" value="焚城槍法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="六合槍">
+<param name="Local" value="六合槍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="盤蛇七衝陣">
+<param name="Local" value="盤蛇七衝陣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="花飛舞槍訣">
+<param name="Local" value="New_Item13.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清河戈術">
+<param name="Local" value="清河戈術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍法/刀法">
+<param name="Local" value="$$unsavedpage28.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="無名劍法">
+<param name="Local" value="無名劍法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="翔流活心無銘劍">
+<param name="Local" value="翔流活心無銘劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="凶星計都">
+<param name="Local" value="凶星計都.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍道十三章">
+<param name="Local" value="New_Item42.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="泰坦八法">
+<param name="Local" value="New_Item37.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="玄鐵劍法">
+<param name="Local" value="New_Item14.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="太刀七雷斬">
+<param name="Local" value="New_Item15.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="紅蝶十三斬">
+<param name="Local" value="New_Item16.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鴻翼刀法">
+<param name="Local" value="New_Item203.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="三劍三刀">
+<param name="Local" value="New_Item17.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="太玄鑲華劍譜">
+<param name="Local" value="New_Item19.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="葵花寶典/辟邪劍法">
+<param name="Local" value="New_Item20.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="阿難破戒刀">
+<param name="Local" value="New_Item29.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="氣魔劍">
+<param name="Local" value="New_Item38.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="心煉劍印術">
+<param name="Local" value="New_Item39.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="六翼刀法">
+<param name="Local" value="六翼刀法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼谷縱橫劍">
+<param name="Local" value="鬼谷縱橫劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="末日劍法">
+<param name="Local" value="末日劍法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈狐劍訣">
+<param name="Local" value="靈狐劍訣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔神劍式">
+<param name="Local" value="New_Item.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="飛燕劍">
+<param name="Local" value="飛燕劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="斗流血法">
+<param name="Local" value="斗流血法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍家劍法">
+<param name="Local" value="龍家劍法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="藏劍武學">
+<param name="Local" value="藏劍武學.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍氣劍">
+<param name="Local" value="龍氣劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="居合斬">
+<param name="Local" value="拔刀術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="墨子劍法">
+<param name="Local" value="New_Item208.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="虛刀流">
+<param name="Local" value="虛刀流.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="一字電劍">
+<param name="Local" value="一字電劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="青蓮劍歌">
+<param name="Local" value="青蓮劍歌.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="任意武器">
+<param name="Local" value="$$unsavedpage29.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍虎連擊式">
+<param name="Local" value="龍虎連擊式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無明神風流">
+<param name="Local" value="無明神風流.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="藏劍術">
+<param name="Local" value="藏劍術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="亞馬遜生存技能">
+<param name="Local" value="亞馬遜生存技能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夜戰八方">
+<param name="Local" value="夜戰八方.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宇宙破壞拳">
+<param name="Local" value="宇宙破壞拳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="重武器">
+<param name="Local" value="$$unsavedpage30.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="程咬金三板斧">
+<param name="Local" value="刀劍技藝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魚龍大活殺">
+<param name="Local" value="New_Item193.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雲耀太刀">
+<param name="Local" value="雲耀太刀.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="將技">
+<param name="Local" value="將技.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="弓箭類">
+<param name="Local" value="$$unsavedpage31.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="杯弓蛇影箭">
+<param name="Local" value="杯弓蛇影箭.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊武器">
+<param name="Local" value="$$unsavedpage32.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="基本鞭法">
+<param name="Local" value="基本鞭法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="螺旋舞步">
+<param name="Local" value="螺旋舞步.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="亂鞭">
+<param name="Local" value="亂鞭.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鶴翼三連">
+<param name="Local" value="鶴翼三連.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="三聖經">
+<param name="Local" value="三聖經.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宮天梳">
+<param name="Local" value="宮天梳.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無限制功夫">
+<param name="Local" value="無限制功夫.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="玲瓏骰">
+<param name="Local" value="玲瓏骰.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="風姿物語">
+<param name="Local" value="$$unsavedpage33.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="紫微玄鑒（心法）">
+<param name="Local" value="紫微玄鑒（心法）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="九曜極速（身法）">
+<param name="Local" value="九曜極速（身法）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天魔功（心法）">
+<param name="Local" value="天魔功（心法）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="皇璽劍印">
+<param name="Local" value="皇璽劍印.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天位力量">
+<param name="Local" value="天位力量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="武經">
+<param name="Local" value="$$unsavedpage34.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="武經系統概述">
+<param name="Local" value="武經系統概述.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="基礎武經">
+<param name="Local" value="基礎武經.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鴻現訣">
+<param name="Local" value="鴻現訣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="血神經">
+<param name="Local" value="New_Item204.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="先天庚金劍氣經">
+<param name="Local" value="New_Item205.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊招式">
+<param name="Local" value="$$unsavedpage35.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="無敵風火輪">
+<param name="Local" value="無敵風火輪.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="雪乃流奧義">
+<param name="Local" value="New_Item30.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼道-破道">
+<param name="Local" value="鬼道-破道.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼道-縛道">
+<param name="Local" value="鬼道-縛道.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="兩儀式退魔術">
+<param name="Local" value="兩儀式退魔術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天龍吼">
+<param name="Local" value="天龍吼.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="風行天下">
+<param name="Local" value="New_Item21.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="童虎流暴甲術">
+<param name="Local" value="童虎流暴甲術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="千年殺">
+<param name="Local" value="千年殺.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="詩詞歌賦">
+<param name="Local" value="詩詞歌賦.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="元氣彈">
+<param name="Local" value="元氣彈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="獅子咆哮彈">
+<param name="Local" value="獅子咆哮彈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="飛龍探雲手">
+<param name="Local" value="飛龍探雲手.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="呼寄之劍">
+<param name="Local" value="呼寄之劍.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="封魔傳承">
+<param name="Local" value="封魔傳承.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RO系列">
+<param name="Local" value="RO系列.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="左右互搏之術">
+<param name="Local" value="左右互博之術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="心眼真/偽">
+<param name="Local" value="怪武奇招.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="明鏡止水">
+<param name="Local" value="其他技藝1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鐵球回轉">
+<param name="Local" value="鐵球回轉.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="其他能力">
+<param name="Local" value="$$unsavedpage36.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="諾恩之歌">
+<param name="Local" value="諾恩之歌.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="這個男人來自恐怖電影">
+<param name="Local" value="這個男人來自恐怖電影.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="肉體操縱術">
+<param name="Local" value="肉體操縱術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="圖書管理員">
+<param name="Local" value="圖書管理員.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="月衣">
+<param name="Local" value="月衣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死神的約定">
+<param name="Local" value="死神的約定.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新恐變化">
+<param name="Local" value="新恐變化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="噬文者">
+<param name="Local" value="噬文者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="多重腦域分割">
+<param name="Local" value="多重腦域分割.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="絕對宣言">
+<param name="Local" value="絕對宣言.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="食腦秘術">
+<param name="Local" value="食鬧秘術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="預言夢">
+<param name="Local" value="預言夢.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冥星紋身">
+<param name="Local" value="冥星紋身.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="貞潔誓言">
+<param name="Local" value="貞潔誓言.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="浮游移動">
+<param name="Local" value="浮游移動.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="切嗣道">
+<param name="Local" value="切嗣道.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通感">
+<param name="Local" value="通感.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="第二法">
+<param name="Local" value="第二法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="召喚黑子">
+<param name="Local" value="召喚黑子.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="基礎技藝">
+<param name="Local" value="基礎技藝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自爆">
+<param name="Local" value="自爆.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="生命強化">
+<param name="Local" value="生命強化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="能量池強化">
+<param name="Local" value="能量池強化.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="能量射擊術">
+<param name="Local" value="能量射擊術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="能量共鳴">
+<param name="Local" value="能量共鳴.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蓄力衝擊">
+<param name="Local" value="蓄力衝擊.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗之力">
+<param name="Local" value="黑暗之力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="丹特麗安的書架">
+<param name="Local" value="New_Item194.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="換裝空間">
+<param name="Local" value="New_Item195.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="只為你一人的世界">
+<param name="Local" value="New_Item196.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="不完全變身術">
+<param name="Local" value="New_Item197.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬼醫">
+<param name="Local" value="鬼醫.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="心靈防禦術">
+<param name="Local" value="心靈防禦術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="獻祭">
+<param name="Local" value="獻祭.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="開太極/廣場舞">
+<param name="Local" value="開太極_廣場舞.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="霸氣">
+<param name="Local" value="霸氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="升格之路">
+<param name="Local" value="升格之路.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夢境與現實的詛咒">
+<param name="Local" value="夢境與現實的詛咒.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="身法">
+<param name="Local" value="$$unsavedpage37.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="無名輕功">
+<param name="Local" value="無名輕功.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="逍遙劍法">
+<param name="Local" value="New_Item18.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="裝甲格鬥術">
+<param name="Local" value="裝甲格鬥術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="機甲術">
+<param name="Local" value="機甲術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="險鋒閃走">
+<param name="Local" value="攻防技藝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="八門遁甲（忍術）">
+<param name="Local" value="八門遁甲（忍術）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="仙風雲體術">
+<param name="Local" value="New_Item3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="酒劍仙戰技">
+<param name="Local" value="New_Item23.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="體感格鬥術">
+<param name="Local" value="New_Item5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="強化衝擊">
+<param name="Local" value="New_Item6.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="舞空術">
+<param name="Local" value="舞空術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="利古雷斯身法">
+<param name="Local" value="New_Item2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="心法">
+<param name="Local" value="$$unsavedpage38.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="滄海殺法">
+<param name="Local" value="滄海殺法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="智識">
+<param name="Local" value="智識.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="帝胄心經">
+<param name="Local" value="New_Item41.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冰火雙亟功">
+<param name="Local" value="New_Item27.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="嫁衣神功">
+<param name="Local" value="New_Item24.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="冰心訣">
+<param name="Local" value="冰心訣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="上天下地至尊功">
+<param name="Local" value="New_Item25.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="黑暗修羅道">
+<param name="Local" value="New_Item35.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="紫霞神功">
+<param name="Local" value="New_Item26.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="青雲護身法門">
+<param name="Local" value="New_Item4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="九玄大法">
+<param name="Local" value="New_Item22.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="氣海無涯">
+<param name="Local" value="氣海無涯.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="婆羅魔經">
+<param name="Local" value="婆羅魔經.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="九死邪功">
+<param name="Local" value="New_Item207.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="護身勁">
+<param name="Local" value="$$unsavedpage39.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="金鐘罩">
+<param name="Local" value="金鐘罩.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="將軍令">
+<param name="Local" value="將軍令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修羅不死身">
+<param name="Local" value="New_Item36.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍象般若功">
+<param name="Local" value="New_Item28.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="能量護體/外套">
+<param name="Local" value="能量護體_護罩.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="戰鬥中回復">
+<param name="Local" value="戰鬥中回復.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="白家武學">
+<param name="Local" value="白家武學1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="金剛壓元功">
+<param name="Local" value="New_Item10.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="核融拳">
+<param name="Local" value="白家武學.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無相訣（心法）">
+<param name="Local" value="無相訣（心法）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="乙太棉身（護身勁）">
+<param name="Local" value="New_Item11.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="光電腿（身法）">
+<param name="Local" value="光電腿（身法）.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="修真">
+<param name="Local" value="$$unsavedpage40.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="大鵬逍遙訣">
+<param name="Local" value="大鵬逍遙訣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="阿鼻元神劍">
+<param name="Local" value="New_Item32.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="北辰斬仙雷法">
+<param name="Local" value="New_Item33.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="上清神霄感應雷法真傳">
+<param name="Local" value="New_Item34.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈霄火部正法">
+<param name="Local" value="靈霄火部正法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="八九玄功">
+<param name="Local" value="八九玄功.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="能量池">
+<param name="Local" value="能量池.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="佛力">
+<param name="Local" value="佛力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="恥力">
+<param name="Local" value="恥力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="犯二能量">
+<param name="Local" value="犯二能量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="查克拉">
+<param name="Local" value="查克拉.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="精神力">
+<param name="Local" value="精神力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="殺氣">
+<param name="Local" value="殺氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="波紋功法">
+<param name="Local" value="波紋功法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="道力">
+<param name="Local" value="道力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="真元力">
+<param name="Local" value="真元力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="原力">
+<param name="Local" value="原力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="妖力">
+<param name="Local" value="妖力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈能">
+<param name="Local" value="靈能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="氣">
+<param name="Local" value="氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="念能力">
+<param name="Local" value="念能力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死氣之火">
+<param name="Local" value="死氣之火.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="念力">
+<param name="Local" value="念力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="靈力">
+<param name="Local" value="靈力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="真氣">
+<param name="Local" value="真氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="龍氣">
+<param name="Local" value="龍氣1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍氣">
+<param name="Local" value="劍氣1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鬥氣">
+<param name="Local" value="鬥氣1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="電磁力">
+<param name="Local" value="電磁力1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="范">
+<param name="Local" value="范.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="元氣">
+<param name="Local" value="元氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="浩然之氣">
+<param name="Local" value="浩然之氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="內力">
+<param name="Local" value="內力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔力">
+<param name="Local" value="魔力1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔法力體質">
+<param name="Local" value="New_Item44.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="法術概述">
+<param name="Local" value="New_Item45.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔導書系統">
+<param name="Local" value="魔導書概述.htm">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔導書總綱">
+<param name="Local" value="魔導書總綱.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="槍火之章">
+<param name="Local" value="槍火之章.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="第七之書">
+<param name="Local" value="第七之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="十三夜書">
+<param name="Local" value="十三夜書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔導王手札">
+<param name="Local" value="魔導王手札.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="蓋魯摩尼克聖典">
+<param name="Local" value="新建項目3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死靈之書">
+<param name="Local" value="死靈之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="夜天之書">
+<param name="Local" value="新建項目4.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="荷布的魔法作戰筆記">
+<param name="Local" value="荷布的魔法作戰筆記.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="制衡之書">
+<param name="Local" value="制衡之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="生化實驗室流漿手冊">
+<param name="Local" value="生化實驗室流漿手冊.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="劍魔魔導書">
+<param name="Local" value="劍魔魔導書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="封印之書">
+<param name="Local" value="封印之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="影靈衣魔導書">
+<param name="Local" value="影靈衣魔導書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鐵之魔龍魔導書">
+<param name="Local" value="鐵之魔龍魔導書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天之滅龍魔導書">
+<param name="Local" value="天之滅龍魔導書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="火之滅龍魔導書">
+<param name="Local" value="火之滅龍魔導書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="法術列表">
+<param name="Local" value="$$unsavedpage41.htm">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="A級S級以上通用法術">
+<param name="Local" value="新建項目5.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通用B級法術">
+<param name="Local" value="通用B級法術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通用C級法術">
+<param name="Local" value="通用C級法術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通用D級法術">
+<param name="Local" value="通用D級法術.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="零級法術補充包">
+<param name="Local" value="零級法術補充包.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="其他施法能力">
+<param name="Local" value="$$unsavedpage42.htm">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="輝石法咒">
+<param name="Local" value="輝石法咒1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="元素論">
+<param name="Local" value="元素論.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="剛達爾夫之契">
+<param name="Local" value="New_Item43.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="五極天式">
+<param name="Local" value="五極天式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="現代魔法">
+<param name="Local" value="現代魔法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="哈利波特">
+<param name="Local" value="哈利波特.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品">
+<param name="Local" value="物品.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品關鍵字說明">
+<param name="Local" value="物品關鍵字說明.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自動復原">
+<param name="Local" value="自動復原.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="載具">
+<param name="Local" value="載具.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="前進基地">
+<param name="Local" value="前進基地.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="D級機械類載具">
+<param name="Local" value="D級包含以下.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="D級生物類戰獸">
+<param name="Local" value="D級魔幻.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="C級機械類載具">
+<param name="Local" value="C級和B級.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="C級生物類戰獸">
+<param name="Local" value="C級魔幻.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="B級機械類載具">
+<param name="Local" value="B級科技1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="B級生物類戰獸">
+<param name="Local" value="B級魔幻.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="A級機械類載具">
+<param name="Local" value="A級包含以上.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="A級生物類戰獸">
+<param name="Local" value="A級以上魔幻.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="S級機械類載具">
+<param name="Local" value="S級機械類載具.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="S級生物類戰獸">
+<param name="Local" value="S級生物類戰獸.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="無人機">
+<param name="Local" value="無人機.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="載具改造">
+<param name="Local" value="泛用載具改造－逃生艙系統.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="科技本質">
+<param name="Local" value="$$unsavedpage43.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="列表武器">
+<param name="Local" value="$$unsavedpage44.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="現實遠程武器">
+<param name="Local" value="列表武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="近戰冷兵器模板">
+<param name="Local" value="近戰冷兵器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="遠程未來武器">
+<param name="Local" value="New_Item187.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="近未來科技裝備">
+<param name="Local" value="New_Item188.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="動能武器">
+<param name="Local" value="動能武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="發射類武器">
+<param name="Local" value="New_Item189.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="驅動型格鬥兵器">
+<param name="Local" value="New_Item190.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="反恐精英系列武器">
+<param name="Local" value="New_Item191.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="D級武器">
+<param name="Local" value="D級武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="C級武器">
+<param name="Local" value="DC級武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="B級以上武器">
+<param name="Local" value="武器1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="輔助物品">
+<param name="Local" value="輔助物品1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品改造">
+<param name="Local" value="物品改造2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="消耗品">
+<param name="Local" value="消耗品1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="子彈">
+<param name="Local" value="子彈.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="爆炸物">
+<param name="Local" value="爆炸物1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="藥品">
+<param name="Local" value="藥品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔幻本質">
+<param name="Local" value="$$unsavedpage45.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="D級武器">
+<param name="Local" value="武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="D級魔法奇物">
+<param name="Local" value="C級魔法傳說.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="C級武器">
+<param name="Local" value="C級武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="C級魔法奇物">
+<param name="Local" value="C級以上魔法奇物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="B級以上武器">
+<param name="Local" value="B級以上武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="B級以上魔法奇物">
+<param name="Local" value="B級以上魔法奇物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="輔助物品">
+<param name="Local" value="輔助物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="法寶與煉器">
+<param name="Local" value="法寶與煉器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="消耗品">
+<param name="Local" value="消耗品3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="概念武裝">
+<param name="Local" value="概念武裝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品改造">
+<param name="Local" value="物品改造1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="升級武器">
+<param name="Local" value="升級武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特異本質">
+<param name="Local" value="$$unsavedpage46.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="武器">
+<param name="Local" value="武器2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="多啦A夢">
+<param name="Local" value="多啦A夢.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="輔助物品">
+<param name="Local" value="其他物品1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="消耗品">
+<param name="Local" value="消耗品2.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="手錶插件">
+<param name="Local" value="手錶插件.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品改造">
+<param name="Local" value="物品改造3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="防具">
+<param name="Local" value="$$unsavedpage47.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔幻輕甲">
+<param name="Local" value="魔幻輕甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔幻重甲">
+<param name="Local" value="魔幻重甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔幻盾牌">
+<param name="Local" value="魔幻盾牌.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="科技輕甲">
+<param name="Local" value="科技輕甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="科技重甲">
+<param name="Local" value="科技重甲.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="科技盾牌">
+<param name="Local" value="其他科技防具.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="神器">
+<param name="Local" value="神器.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="神器通用規則">
+<param name="Local" value="神器通用規則.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="成長型神器">
+<param name="Local" value="$$unsavedpage48.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="其他武器類">
+<param name="Local" value="成長性神器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="肉搏武器類">
+<param name="Local" value="肉搏類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="刀劍武器類">
+<param name="Local" value="刀劍類.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="防具類">
+<param name="Local" value="成長性其他神器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="一次性神器">
+<param name="Local" value="$$unsavedpage49.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="智能神器">
+<param name="Local" value="一次性神器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="非智能武器">
+<param name="Local" value="非智能武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="非智能防具">
+<param name="Local" value="非智能防具.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="非智能其他">
+<param name="Local" value="非智能其他.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="劇情物品">
+<param name="Local" value="$$unsavedpage50.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="劇情物品">
+<param name="Local" value="劇情物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="擴展之書">
+<param name="Local" value="$$unsavedpage51.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="擴展之書總綱">
+<param name="Local" value="擴展之書總綱.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="暫不開放">
+<param name="Local" value="暫不開放.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="屬性大能">
+<param name="Local" value="屬性大能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品">
+<param name="Local" value="物品1.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="新列表武器">
+<param name="Local" value="New_Item192.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="法術">
+<param name="Local" value="法術.htm">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="法之書">
+<param name="Local" value="法之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="亡靈黑經">
+<param name="Local" value="亡靈黑經.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="辦技藝">
+<param name="Local" value="技藝1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="辦稱號">
+<param name="Local" value="稱號1.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="港漫強者">
+<param name="Local" value="港漫強者.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自創">
+<param name="Local" value="自創.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="三分歸元氣">
+<param name="Local" value="三分歸元氣.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="造物之書">
+<param name="Local" value="造物之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="輔助之書">
+<param name="Local" value="輔助之書.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL>
+</BODY>
+</HTML>

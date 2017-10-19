@@ -1,0 +1,1388 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BLACKLIGHT原型體</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">ＢＬＡＣＫＬＩＧＨＴ原型體<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">「我是ＡＬＥＸ　ＭＥＲＣＥＲ，這一切的罪魁禍首。他們叫我殺人犯，怪物，恐怖 
+份子。……我屬於以上全部。」<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－ 
+基因 缺陷<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">由病毒物質構成的身體代表著你走上了與人類基因鎖背道而馳的另一條進化之路，你無法進行基因鎖解開判定。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這個缺陷表現為每個 
+血統 等級上的一個負面特性。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－形體轉換<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">原形體能夠驅使病毒製造 
+生化 物質來實現某些效果，這表現為你能夠將身體轉換為其他功效的能力，佔用每個血統等級上的一個單特性，這是一種變形效果。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">轉換通常是一個整輪動作，單次變形數量為〔血統等級〕。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你也可以通過每血統等級的整輪／標準／類移／迅捷動作進行變形轉換。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">此能力可以實現下列效果。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US>D</SPAN><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">級姿態：<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－跳躍姿態，你在力量上的每個自動成功以及血統的每個等級都會使跳躍判定增加<SPAN 
+lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－潛水姿態，你可以水下呼吸。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－游泳姿態，你在力量上的每個自動成功以及血統的每個等級都會使游泳判定增加<SPAN 
+lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－躲藏姿態，你在敏捷上的每個自動成功以及血統的每個等級都會使隱藏判定增加<SPAN 
+lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－墜落姿態：遭受墜落傷害時減免耐力值的傷害。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－攀爬姿態：能夠以半速在任何表面上移動，但是停止就會墜落。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－平衡姿態，你在敏捷上的每個自動成功以及血統的每個等級都會使平衡感判定增加<SPAN lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－潛行姿態，你在潛行時無需半速移動。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US>C</SPAN><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">級姿態：<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－擒抱姿態，你在力量上的每個自動成功以及血統的每個等級都會使擒抱對抗增加<SPAN lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－精準姿態，你在敏捷上的每個自動成功都會使攻擊特定部位的減值減少<SPAN lang=EN-US>1</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－保護姿態，你在敏捷上的每個自動成功以及血統的每個等級都會使躲避範圍攻擊判定增加<SPAN lang=EN-US>2DP</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－體積姿態，你可以改變你的體積，數值為你在耐力上的每個自動成功以及血統的每個等級，體積的下限為<SPAN 
+lang=EN-US>4</SPAN>，增長的體積不會改變你的生命值。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－飛行姿態，你獲得基礎速度等同的飛行能力，機動性為笨拙，你在敏捷上的每個自動成功使你的機動性上升<SPAN 
+lang=EN-US>1</SPAN>個級別。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－防禦姿態，你在敏捷上的每個自動成功以及血統的每個等級都會使你的基礎防禦增加<SPAN lang=EN-US>1</SPAN>點。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US>B</SPAN><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">級姿態：</SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－進攻姿態，你在力量上的每個自動成功以及血統的每個等級都會使你的近戰攻擊<SPAN lang=EN-US>DP</SPAN>增加<SPAN lang=EN-US>2</SPAN>點。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－肉盾姿態，你在耐力上的每個自動成功以及血統的每個等級都會使你獲得<SPAN lang=EN-US>1</SPAN>點<SPAN lang=EN-US>DR</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－速度姿態，你在敏捷上的每個自動成功以及血統的每個等級都會使基礎移動速度增加<SPAN lang=EN-US>10</SPAN>米。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－再升姿態，你在耐力上的每個自動成功使你獲得再生<SPAN lang=EN-US>1</SPAN>。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US>A</SPAN><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">級姿態：<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－增幅姿態，你可以選擇生理系的任一一項屬性獲得血統等級的內在加值。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－戰鬥姿態，你可以選擇基於生理系的任一一項屬性的判定獲得血統等級的附加成功。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">當你獲得某些解鎖能力時，質量轉換將會有更多使用方法。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｄ級<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">屬性：力量<SPAN lang=EN-US>+1<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>敏捷<SPAN 
+lang=EN-US>+1<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>體質<SPAN lang=EN-US>+2</SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">能量：無，額外增加一個特性<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">特性：吞噬（雙特性）利爪<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">技能樹：Ｄ級解鎖能力<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">特殊：無能量池，額外增加<SPAN lang=EN-US>1</SPAN>個特性<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">吞噬：原型體可以吞噬一個處於無助狀態但仍然存活的生物，用以恢復損傷或奪取對方基因。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠以一個會失去基礎防禦的整輪動作吸收一個有機物的最多<SPAN lang=EN-US>5</SPAN>點體積，每<SPAN lang=EN-US>1</SPAN>點體積可以為你恢復一點衝擊傷害。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果你完全吞噬了一個生物，那麼額外支付１點意志力，你可以將這個生物計入〔基因網絡〕當中，這將使你被震懾一輪。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">利爪：你的爪子現在是為<SPAN lang=EN-US>1L</SPAN>的天生武器。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｃ級<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">屬性：力量<SPAN lang=EN-US>+2<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>敏捷<SPAN 
+lang=EN-US>+1<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>體質<SPAN lang=EN-US>+3</SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">特性：吞噬（提升雙特性）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">技能樹：Ｃ級解鎖能力<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">吞噬：從那些被吞噬生物的記憶中，你能夠提取對自己有幫助的專業知識。計算被你吞噬目標的所有屬性與技能，如果該生物的最高屬性或最高技能比你的最高屬性或最高技能高時，你可以獲得<SPAN 
+lang=EN-US>1</SPAN>點基因點，你可以將基因點當做經驗來提升自己的屬性以及技能。<SPAN 
+lang=EN-US>D</SPAN>級時的整輪動作改為標準動作，現在你可以恢復等額的嚴重傷害。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｂ級<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">屬性：力量<SPAN lang=EN-US>+2<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>敏捷<SPAN 
+lang=EN-US>+2<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>體質<SPAN lang=EN-US>+4</SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">特性：吞噬（提升雙特性，額外一特性）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">技能樹：Ｂ級解鎖能力<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">吞噬：你能夠觸碰到那些被吞噬生物記憶的最底端。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">當你將一個生物吃進基因網絡中時，你可以額外支付一點基因點，選擇一項對方擁有而你沒有的專業獲得之。<SPAN 
+lang=EN-US>C</SPAN>級時的標準動作改為移動動作，且只失去一半的基防，體積上限達到<SPAN 
+lang=EN-US>8</SPAN>，如果你用整輪動作吞噬掉體積<SPAN lang=EN-US>16</SPAN>的有機物，你可以恢復<SPAN lang=EN-US>1</SPAN>點惡性，此時你失去基防。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ａ級<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">屬性：力量<SPAN lang=EN-US>+4<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>敏捷<SPAN 
+lang=EN-US>+4<SPAN style="mso-spacerun: yes">&nbsp; </SPAN></SPAN>體質<SPAN lang=EN-US>+4</SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">特性：原型體（三特性）吞噬（提升單特性）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">技能樹：Ａ級解鎖能力<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">原型體：你徹底成為了由病毒構成的存在，原本的生物形態對你來說已經失去了意義——器官，神經，血管，乃至大腦都已經不復存在，你仍然保有人形的唯一原因不過是因為那是你曾經的形象罷了。你不需要進食、飲水、呼吸和睡眠，免疫疾病、毒素和肢體創傷效果，攻擊特定部位對你也不會產生任何效果——因為你壓根就沒有要害。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">當你的最後一格生命值被惡性傷害填滿時，你會立刻進入一種病毒集群聚合體的狀態，這非常類似於新恐變化，唯一的區別在於你甚至不需要在死亡時保有大致完整的身體，並且活力值固定為體質值的兩倍而不受臟器的影響。在這種狀態下你仍然保有吞噬能力，在你以吞噬能力將生命值徹底恢復完好時，你將退出此狀態。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">吞噬：現在你吞噬時不再失去基防，並且每點<SPAN lang=EN-US>1</SPAN>體積可以為你恢復<SPAN lang=EN-US>1</SPAN>點惡性。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｄ級技能樹<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">註：所有消耗的經驗都可以消耗等額的基因點。你也可以消耗基因點來購買（自創）下列技能。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">利爪變化（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠將一隻手臂變形為鋒利的骨質利爪，<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你現在的爪子變為傷害<SPAN lang=EN-US>3L</SPAN>、【破甲<SPAN lang=EN-US>2</SPAN>】的天生武器 。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果你擁有多只手臂，你可以變換更多只利爪。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">地刺（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：利爪變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於利爪變化時，你能夠使用這種特殊的招式。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">以一個會失去基礎防禦的標準動作，你將骨爪深深插入地面，使其在地下延伸並從下方攻擊對手，進行一次正常的攻擊判定。此時骨爪的傷害與破甲＋４，最遠射程延伸至每血統等級２５米。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－強化地刺（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：地刺<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">承受每多一個目標－２ＤＰ的懲罰，你能夠在一次地刺攻擊中同時進攻多個射程內的目標。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">滑翔（<SPAN lang=EN-US>500+1XP</SPAN>）<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">通過病毒物質產生空氣動力學的效果，你能夠將墜落速度降低至原本的四分之一。在墜落中，若你處於墜落姿態時，你免疫墜落傷害，若你不處於墜落狀態中，你受到原本<SPAN 
+lang=EN-US>1/2</SPAN>的墜落傷害。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">攀爬強化（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠精確的控制病毒物質產生摩擦力或輔助行動。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">基礎移動速度再增加<SPAN lang=EN-US>10</SPAN>點。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">若你處於攀爬狀態，則你現在能夠全速在任何表面進行移動，停止也不會墜落。若你不處於攀爬姿態時，你可以半速在任何表面上移動，但是停止就會墜落。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">熱感視覺（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你的視覺能夠捕捉到熱量，這是一個類似紅外線視覺的能力，但不會對正常視覺產生任何不利影響，你獲得感知<SPAN 
+lang=EN-US>/10</SPAN>米的盲感，你免疫措手不及。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">偽裝（<SPAN lang=EN-US>D+500+3XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">通過一個整輪動作，你能夠變形成基因網絡中一個指定生物的外貌，並取得他的聲線、舉止習慣乃至人際關係記憶。但是這不會改變你的體型。</SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這個能力給予你對於指定對象的偽裝身份以及社交判定上＋<SPAN lang=EN-US>3</SPAN>自動成功。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｃ級技能樹<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">生化盾（<SPAN lang=EN-US>C+1000+5XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">花費一個標準動作，你能夠在前臂形成一個體積<SPAN lang=EN-US>2-8</SPAN>的生體盾牌。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這塊盾牌是天生武器，擁有〔格檔〕〔防彈〕與〔防能量武器〕特性，並且在你遭受範圍傷害時能夠將其體積值作為掩蔽加值計入反射判定中。盾牌體積每比<SPAN 
+lang=EN-US>1</SPAN>大<SPAN lang=EN-US>1</SPAN>點，自身就受到<SPAN lang=EN-US>1</SPAN>無法豁免的嚴重傷害。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果盾牌體積超過你自身體積的話，你可以持有它進行主動掩蔽動作，甚至為身旁的其他人一同提供庇護。同時過大的盾牌影響你的移動，盾牌體積超過<SPAN 
+lang=EN-US>4</SPAN>之後，每有<SPAN lang=EN-US>1</SPAN>點體積，則你的基礎移動速度下降<SPAN lang=EN-US>1</SPAN>米。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">支付１點意志力，你能夠以反射動作來生成生化盾。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">鞭錘變化（<SPAN lang=EN-US>C+1000+5XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠將一隻手臂轉化為帶有骨刃的鞭狀觸手。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這是一件傷害２Ｌ的天生武器，擁有〔軟兵器〕特性，長度等於每血統等級×<SPAN lang=EN-US>5</SPAN>米。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">它還可以當作一件重投擲物品使用，此時它的一般射程與極限射程皆為每血統等級×<SPAN lang=EN-US>30</SPAN>米，傷害<SPAN lang=EN-US>6L</SPAN>，【破甲<SPAN lang=EN-US>6</SPAN>】，但是擲出後直到下一次你開始行動輪時這件武器才會被自動回收。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你也可以用它來遠程抓取物品，或將自己拉向目標地點。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果你擁有多只手臂，你可以轉化每血統等級的鞭錘。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">掃蕩（<SPAN lang=EN-US>C+1000+5XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：鞭錘變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於鞭錘變化時，你能夠使用這種特殊的招式。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這是一個整輪動作，你使用鞭錘進行一次近戰攻擊判定，成功數將作為前方２７０度，長度等同鞭錘觸及範圍米扇形範圍內的範圍傷害，反射判定結果小於３者會被擊倒。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">撕裂（<SPAN lang=EN-US>C+1000+5XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：利爪變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於利爪變化時，你每以爪在一次攻擊中造成３點傷害，便會同時造成１點劇痛效果，強韌豁免，可以無限疊加。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">隱匿（<SPAN lang=EN-US>C+1000+5XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠形成一層覆蓋身體的特種生化物質，它能夠提供類似光學迷彩的視覺偽裝效果並且阻礙電磁波、熱能及音波的散發，但無法阻止引力波探測。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ｂ級技能樹<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">生化裝甲（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠形成堅韌的生體裝甲包覆全身。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這是一件輕裝甲，盔甲的基礎值最高等同於血統等級×<SPAN lang=EN-US>6</SPAN>，可自由調整盔甲強度（只限變換之前）。<SPAN lang=EN-US>1</SPAN>點基礎值等於<SPAN lang=EN-US>1</SPAN>點盔甲防禦或者<SPAN lang=EN-US>1</SPAN>點抵破甲。<SPAN lang=EN-US>2</SPAN>點基礎值等於【防彈】<SPAN lang=EN-US>/</SPAN>【防能量武器】特性。<SPAN lang=EN-US>3</SPAN>點基礎值等於<SPAN lang=EN-US>1</SPAN>點<SPAN lang=EN-US>DR</SPAN>或者<SPAN lang=EN-US>1</SPAN>點全能量抗力或者<SPAN lang=EN-US>1</SPAN>點【封閉】特性。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">若使用的基礎值超過<SPAN lang=EN-US>15</SPAN>點，則盔甲為重甲，基礎防禦<SPAN lang=EN-US>-1</SPAN>，每多使用<SPAN lang=EN-US>3</SPAN>點，基礎防禦就再<SPAN lang=EN-US>-1</SPAN>，反之則為輕甲。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">肌肉強化（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你的力量額外＋２，因高屬性得到的力量屬性上的自動成功數×２。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">在這個狀態下，你可以忽略體形問題舉起一切你力量值足夠舉起的物體。如果將它們用作臨時武器，那麼武器傷害等於其體積值／３，並且視作重投擲武器，造成嚴重傷害。這些武器會在造成等同自身結構點傷害後完全損壞。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">－錘拳變化（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：鞭錘變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠將一隻手臂轉化為無堅不摧的巨錘，足以一擊將主戰坦克砸成廢鐵。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這是一件傷害１０Ｌ、破甲６＋目標體積的天生武器，擁有〔眩暈〕、〔威猛〕與〔動能武器〕特性。它並不是真的動能武器，只是效果類似，並不造成能量傷害。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果你擁有多只手臂，你可以創造多只錘拳。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">急降（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：錘拳變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於錘拳變化時，你能夠使用這種特殊的招式。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你必須處於目標正上方的空中並對該目標發起衝鋒攻擊。這一次衝鋒攻擊不使用原本的規則，而是計算你與目標的高度差，每１米會為你的攻擊帶來＋１加值，最多不會超過你的力量值。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">震擊（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：錘拳變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於錘拳變化時，你能夠使用這種特殊的招式。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠使用一個標準動作猛擊地面，以錘拳進行一次攻擊，半徑〔力量值〕米內的其他生物需要進行反射判定與你對抗，只要失敗就會無條件倒地並承受差值點嚴重傷害。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">當你習得此能力後，你的急降能力將自動附帶一次震擊攻擊。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">貫穿（<SPAN lang=EN-US>B+2000+10XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：無<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">使用大量生化病毒構成一條觸手向前延伸，貫穿接觸到的一切。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">支付１點意志力，你能夠使用標準動作進行特殊的範圍攻擊，傷害等同於【耐力值】，並擁有同等的破甲值，範圍為耐力值<SPAN 
+lang=EN-US>X 10</SPAN>米的線型範圍。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">Ａ級技能樹<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">刀刃變化（<SPAN lang=EN-US>A+4000+20XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：利爪變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠將一隻手臂轉化為無堅不摧的生化利刃——擁有錘拳的破壞力和骨爪的速度。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">這是一件傷害８Ｌ、破甲８、８加骰、體積４的天生武器，擁有【格檔】【動能武器】【威猛】特性。它並不是真的動能武器，只是效果類似。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">如果你擁有多只手臂，你可以創造多只刀刃。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">刀鋒狂暴（<SPAN lang=EN-US>A+4000+20XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：刀刃變化<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你現在的天生武器視為獲得【神器】特性。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於刀刃變化時，你能夠使用這種特殊的招式。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你能夠將更多更密集更致命的生化物質集中在刀鋒部位：<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">處於這種狀態下，你自身會受到<SPAN lang=EN-US>1</SPAN>點嚴重傷害，這個傷害無法被治癒直至你退出這個狀態，就可以使刀刃增加<SPAN lang=EN-US>2L</SPAN>和<SPAN lang=EN-US>2</SPAN>破甲，並且造成的傷害中有<SPAN lang=EN-US>1</SPAN>點轉化為惡性，上限為你的耐力附加成功數。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體"></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">毀滅（<SPAN lang=EN-US>A+4000+20XP</SPAN>）<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">前提：貫穿<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">你將體內所有的生化病毒全部解除限制，向四面八方無限延伸，毀滅接觸到的一切。<SPAN lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體" 
+lang=EN-US></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN 
+style="LINE-HEIGHT: 150%; FONT-FAMILY: 細明體; FONT-SIZE: 12pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-fareast-font-family: 細明體">每個場景一次，支付３點意志力，你能夠使用整輪動作進行特殊的範圍攻擊，傷害等同於耐力值，並擁有同等的破甲值，影響以你為中心半徑耐力<SPAN 
+lang=EN-US>X 
+10</SPAN>米的球型範圍。被此能力殺死的生物將直接被吸收，如同你使用吞噬能力全回合吞噬。<SPAN lang=EN-US></SPAN></SPAN></P></body>
+</html>
